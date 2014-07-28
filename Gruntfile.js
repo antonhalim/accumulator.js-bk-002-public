@@ -33,11 +33,11 @@ module.exports = function(grunt) {
          require: false
        }
      },
-     all: ['Gruntfile.js', 'lib/**/*.js', 'spec/**/*.spec.js']
+     all: ['Gruntfile.js', 'lib/*.js', 'spec/*.spec.js']
    },
     watch: {
       js: {
-        files: ['lib/**/*.js', 'spec/**/*.spec.js'],
+        files: ['lib/*.js', 'spec/*.spec.js'],
         tasks: ['test']
       }
     },
