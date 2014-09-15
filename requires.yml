@@ -4,3 +4,4 @@ javascripts:
     - lib/accumulate.js
   specs:
     - spec/accumulate-spec.js
+    
