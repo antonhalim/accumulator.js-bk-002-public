@@ -6,7 +6,7 @@ tags: functions, callbacks
 # Accumulator
 ## Getting Started
 
-Run `npm install`
+- Run `npm install`
 
 ## Tests
 

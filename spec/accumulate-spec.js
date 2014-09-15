@@ -1,10 +1,12 @@
-'use strict';
-
-var accumulate = require('../lib/accumulate');
+// 'use strict';
+// var accumulate = require('../lib/accumulate');
 
 describe('accumulate()', function() {
+
   it('accumulation empty', function() {
-    var accumulator = function(e) { return e * e; };
+    var accumulator = function(e) { 
+      return e * e; 
+    };
     expect([]).toEqual(accumulate([], accumulator));
   });
 
